@@ -50,4 +50,10 @@ public class Box {
     {
         s.attachBox(this);
     }
+
+    @Override
+    public String toString()
+    {
+        return "Length: " + this.length + "\nWidth: " + this.width + "\nHeight: " + this.height;
+    }
 }

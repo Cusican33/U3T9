@@ -38,5 +38,13 @@ public class Main
         System.out.println(b2 == shapeBox);
         System.out.println(shapeBox.boxInfo());
 
+        b1 = new Box(10);
+        b2 = new Box(10, 5, 20);
+
+        System.out.println();
+        System.out.println(b1);
+        System.out.println();
+        System.out.println(b2);
+
     }
 }
