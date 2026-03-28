@@ -48,6 +48,6 @@ public class Box {
 
     public void addToShape(Shape s)
     {
-        s.
+        s.attachBox(this);
     }
 }
